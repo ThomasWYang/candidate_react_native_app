@@ -1,0 +1,5 @@
+services:
+  app:
+    image: thomasy2022/candidate_react_native_app
+    ports:
+      - 19006:19006
