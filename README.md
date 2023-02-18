@@ -1,0 +1,83 @@
+# Readme
+
+This is a simple react native app consuming Rest Api from https://github.com/ThomasWYang/tpg_demo deployed on AWS EC2 http://13.236.184.156
+The app is only tested on web browser.
+
+## Install via Git (recommended) 
+
+1. Make sure Node.js 18+ (https://nodejs.org/en/) is installed in the local environment.
+Use following command in command line to check.
+```sh
+node -v
+npm -v
+```
+2. Use git clone to copy repo to local
+```sh
+git clone https://github.com/ThomasWYang/candidate_react_native_app.git
+```
+3. Change directory into that folder and run following command, the app will run on default port 19006.
+```sh
+npm install
+npm run web
+```
+If you see this info is displayed, the app is running correctly
+![图片](https://user-images.githubusercontent.com/84115795/219852126-c9109397-6cd4-471d-9dd1-684db961bda3.png)
+
+## Install via Docker (not recommended because the docker image is big) 
+
+1. Make sure Docker desktop (https://www.docker.com/) is running.
+2. Pull the docker image from docker hub.
+```sh
+docker pull thomasy2022/candidate_react_native_app
+```
+3. Run the following command to run the app in a container. The app will run on port 19006 with below command.
+```sh
+docker run -d -p 19006:19006 thomasy2022/candidate_react_native_app
+```
+4. You can also use docker compose file to run the app
+```sh
+docker compose up
+```
+It will run on configured port 19006 and you will see similar info below. 
+![图片](https://user-images.githubusercontent.com/84115795/219852256-b45ae281-f246-41fc-b134-064231f8c607.png)
+
+
+## Usage
+
+1. Search all candidates (without any specification): click "Search" button directly
+
+
+
+2. Search candidates by fname, lname or email (you can give any combination of these 3 fields): give value in relevant field and click "Search" button
+
+
+
+3. Order search result by score : click "OrderByScore" button
+
+
+
+4. Add candidate: ensure the rightmost button on second row is "Add" and give at least fname and lname to add candidate
+If missing fields:
+
+
+If add successfully:
+
+
+
+5. Update candidate: click "Switch to Update" button to change "Add" to "Update", 
+
+
+
+Then click "Select" button on any displayed row to make the id become a valid value, give at least fname and lname to update candidate.
+The candidate will be updated.
+
+
+
+6. Delete candidate: click "Delete" button on any displayed row, that candidate will be deleted and removed from current list.
+
+
+
+
+
+
+
