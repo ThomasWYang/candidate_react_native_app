@@ -46,38 +46,34 @@ It will run on configured port 19006 and you will see similar info below.
 
 1. Search all candidates (without any specification): click "Search" button directly
 
-
+![图片](https://user-images.githubusercontent.com/84115795/219853146-263c4153-b9a6-4fb5-92e0-0f40de3a4576.png)
 
 2. Search candidates by fname, lname or email (you can give any combination of these 3 fields): give value in relevant field and click "Search" button
 
-
+![图片](https://user-images.githubusercontent.com/84115795/219853159-c794c188-8a44-47a3-af30-ae9c0ebaf601.png)
 
 3. Order search result by score : click "OrderByScore" button
 
+![图片](https://user-images.githubusercontent.com/84115795/219853175-d9531b34-309b-4de1-8487-076518fba386.png)
 
-
-4. Add candidate: ensure the rightmost button on second row is "Add" and give at least fname and lname to add candidate
+4. Add candidate: ensure the rightmost button on second row is "Add" and click and give at least fname and lname to add candidate
 If missing fields:
 
+![图片](https://user-images.githubusercontent.com/84115795/219853193-1f64bc62-fcde-4b5e-ab4a-3ab6d0482dd2.png)
 
 If add successfully:
 
-
+![图片](https://user-images.githubusercontent.com/84115795/219853220-6b180ab7-e813-43d9-a305-29048498d1af.png)
 
 5. Update candidate: click "Switch to Update" button to change "Add" to "Update", 
 
-
+![图片](https://user-images.githubusercontent.com/84115795/219853254-6f2181ba-a626-433f-a362-37b93543acb9.png)
 
 Then click "Select" button on any displayed row to make the id become a valid value, give at least fname and lname to update candidate.
-The candidate will be updated.
+The candidate will be updated after clicking "Update" button.
 
-
+![图片](https://user-images.githubusercontent.com/84115795/219853284-d4f9c2a3-53bf-45f3-a8c4-3a31ee40e765.png)
 
 6. Delete candidate: click "Delete" button on any displayed row, that candidate will be deleted and removed from current list.
 
-
-
-
-
-
-
+![图片](https://user-images.githubusercontent.com/84115795/219853360-5047a17c-f522-49dc-aa13-5189c6078eee.png)
