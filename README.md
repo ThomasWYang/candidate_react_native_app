@@ -34,7 +34,7 @@ docker pull thomasy2022/candidate_react_native_app
 ```sh
 docker run -d -p 19006:19006 thomasy2022/candidate_react_native_app
 ```
-4. You can also use docker compose file to run the app
+4. You can also use docker-compose.yml file inside this repo combined with the docker image to run the app
 ```sh
 docker compose up
 ```
