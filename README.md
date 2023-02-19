@@ -41,6 +41,7 @@ docker compose up
 It will run on configured port 19006 and you will see similar info below. 
 ![图片](https://user-images.githubusercontent.com/84115795/219852256-b45ae281-f246-41fc-b134-064231f8c607.png)
 
+If the webpage is not opened automatically, please open http://localhost:19006 .
 
 ## Usage
 
